@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.line {
+  display: block;
+  width: 3rem;
+  height: 0.4rem;
+  background-color: white;
+  margin: 0.2rem auto;
+}
+
+.burger {
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: blue;
+}
+
+.img {
+  width: 100%;
+  height: 100vw;
+  background-color: blue;
+}
+
+h1 {
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+p {
+  color: blue;
+  line-height: 2rem;
+}
+
+.more {
+  font-weight: bold;
+  color: blue;
+}
+
+@media only screen and (min-width: 756px) {
+  .line {
+    background-color: white;
+  }
+
+  .burger {
+    background-color: blue;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .img {
+    width: 90%;
+    height: 90vh;
+    margin: 5vh auto;
+  }
+
+  .content {
+    padding-right: 7rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
